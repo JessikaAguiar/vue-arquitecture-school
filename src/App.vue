@@ -31,10 +31,6 @@ export default {
   min-height: 100vh;
 }
 
-main {
-  padding: 1rem;
-}
-
 @media (max-width: 768px) {
   main {
     padding: 0.5rem;
