@@ -25,4 +25,19 @@ export default {
   font-family: 'Poppins', sans-serif;
   color: #6C6C6C;
 }
+#app {
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+  min-height: 100vh;
+}
+
+main {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 0.5rem;
+  }
+}
 </style>
